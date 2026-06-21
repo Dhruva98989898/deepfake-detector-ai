@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>AI Report</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Deepfake Detector</h1>
+
+<div class="card">
+
+<h2>{{ verdict }}</h2>
+
+<p><strong>Video:</strong> {{ filename }}</p>
+
+<p><strong>Frames Extracted:</strong> {{ frames }}</p>
+
+<p><strong>Frames Analyzed:</strong> {{ analyzed }}</p>
+
+<p><strong>AI Frames:</strong> {{ percentage }}%</p>
+
+</div>
+
+<a href="/">
+
+<button>
+
+Analyze Another Video
+
+</button>
+
+</a>
+
+</div>
+
+</body>
+
+</html>
